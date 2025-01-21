@@ -20,14 +20,14 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-    git clone git@github.com:RoystonDAlmeida/clerk-signup_signin-page.git
-    cd clerk-signup_signin-page/
+git clone git@github.com:RoystonDAlmeida/clerk-signup_signin-page.git
+cd clerk-signup_signin-page/
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-    npm install
+npm install
 ```
 
 ### 3. Create a Clerk Account
@@ -40,10 +40,10 @@ Before you begin, ensure you have the following installed:
 Create a `.env.local` file at the root of your project and add your Clerk API keys:
 
 ```bash
-    NEXT_PUBLIC_CLERK_SIGN_IN_URL = 
-    NEXT_PUBLIC_CLERK_SIGN_UP_URL = 
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY =
-    CLERK_SECRET_KEY = 
+NEXT_PUBLIC_CLERK_SIGN_IN_URL = 
+NEXT_PUBLIC_CLERK_SIGN_UP_URL = 
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY =
+CLERK_SECRET_KEY = 
 ```
 
 ### 5. Run the Development Server
@@ -51,10 +51,10 @@ Create a `.env.local` file at the root of your project and add your Clerk API ke
 Start your local development server:
 
 ```bash
-    npm run dev
+npm run dev
 ```
 
-Visit ![Sign In Page](http://localhost:3000/sign-in) to see the application in action.
+Visit [Sign In Page](http://localhost:3000/sign-in) to see the application in action.
 
 ## 📱 Usage
 
@@ -62,13 +62,13 @@ Visit ![Sign In Page](http://localhost:3000/sign-in) to see the application in a
 
 To sign in, navigate to the sign-in page:
 
-![Sign In Page](http://localhost:3000/sign-in)
+[Sign In Page](http://localhost:3000/sign-in)
 
 ### Sign Up
 
 If you don't have an account, click on "Sign up here" to create a new account:
 
-![Sign Up Page](http://localhost:3000/sign-up)
+[Sign Up Page](http://localhost:3000/sign-up)
 
 ## 📚 Documentation
 
